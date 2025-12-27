@@ -7,8 +7,8 @@ const Header = () => {
                 <div class="container">
                     <p>
                         SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
-                        - OFF 50%!
-                        <a href="shop.html">SHOP NOW</a>
+                        - OFF 50% ! 
+                        <a href="shop.html"> SHOP NOW</a>
                     </p>
                 </div>
             </div>
