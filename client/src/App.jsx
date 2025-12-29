@@ -1,9 +1,10 @@
-import './App.css';
 import Categories from './components/Categories/Categories';
 import Footer from './components/layout/Footer/Footer';
 import Header from './components/layout/Header/Header';
 import Policy from './components/layout/Policy/Policy';
+import Products from './components/Products/Products';
 import Sliders from './components/Slider/Sliders';
+import './App.css';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Sliders />
       <Categories />
+      <Products />
       <Policy />
       <Footer />
     </div>
