@@ -1,30 +1,12 @@
-import Categories from './components/Categories/Categories';
-import Footer from './components/layout/Footer/Footer';
-import Header from './components/layout/Header/Header';
-import Policy from './components/layout/Policy/Policy';
-import Products from './components/Products/Products';
-import Sliders from './components/Slider/Sliders';
+import React from 'react';
+import HomePage from './pages/HomePage';
 import './App.css';
-import Campaigns from './components/Campaigns/Campaigns';
-import Blogs from './components/Blogs/Blogs';
-import Brands from './components/Brands/Brands';
-import CampaignSingle from './components/CampaignSingle/CampaignSingle';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Sliders />
-      <Categories />
-      <Products />
-      <Campaigns/>
-      <Products />
-      <Blogs />
-      <Brands />
-      <CampaignSingle/>
-      <Policy />
-      <Footer />
-    </div>
+    <React.Fragment>
+      <HomePage />     
+    </React.Fragment>
   );
 }
 
