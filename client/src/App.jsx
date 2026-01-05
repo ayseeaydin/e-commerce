@@ -2,9 +2,11 @@ import React from 'react';
 // import HomePage from './pages/HomePage';
 // import ShopPage from './pages/ShopPage';
 import './App.css';
-import CardPage from './pages/CardPage';
+// import BlogPage from './pages/BlogPAge';
+// import CardPage from './pages/CardPage';
 // import AuthPage from './pages/AuthPage';
 // import ContactPage from './pages/ContactPage';
+import BlogDetailsPage from './pages/BlogDetailsPage';
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
       {/* <ShopPage /> */}
       {/* <ContactPage /> */}
       {/* <AuthPage/> */}
-      <CardPage/>
+      {/* <CardPage/> */}
+      {/* <BlogPage/> */}
+      <BlogDetailsPage/>
     </React.Fragment>
   );
 }
