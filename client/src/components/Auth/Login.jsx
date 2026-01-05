@@ -3,29 +3,29 @@ import React from "react";
 const Login = () => {
     return (
         <React.Fragment>
-            <div class="account-column">
+            <div className="account-column">
                 <h2>Login</h2>
                 <form>
                     <div>
                         <label>
-                            <span>Username or email address <span class="required">*</span></span>
+                            <span>Username or email address <span className="required">*</span></span>
                             <input type="text" />
                         </label>
                     </div>
                     <div>
                         <label>
-                            <span>Password <span class="required">*</span></span>
+                            <span>Password <span className="required">*</span></span>
                             <input type="password" />
                         </label>
                     </div>
-                    <p class="remember">
+                    <p className="remember">
                         <label>
                             <input type="checkbox" />
                             <span>Remember me</span>
                         </label>
-                        <button class="btn btn-sm">Login</button>
+                        <button className="btn btn-sm">Login</button>
                     </p>
-                    <a href="#" class="form-link">Lost your password?</a>
+                    <a href="#" className="form-link">Lost your password?</a>
                 </form>
             </div>
         </React.Fragment>

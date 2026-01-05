@@ -2,9 +2,9 @@ import BrandItem from "./BrandItem";
 import "./Brands.css";
 const Brands = () => {
     return (
-        <section class="brands">
-            <div class="container">
-                <ul class="brand-list">
+        <section className="brands">
+            <div className="container">
+                <ul className="brand-list">
                     <BrandItem/>
                     <BrandItem/>
                     <BrandItem/>

@@ -8,9 +8,9 @@ import "./Auth.css";
 const Auth=()=>{
     return(
         <React.Fragment>
-            <section class="account-page">
-                <div class="container">
-                    <div class="account-wrapper">
+            <section className="account-page">
+                <div className="container">
+                    <div className="account-wrapper">
                         <Login/>
                         <Register/>
                     </div>

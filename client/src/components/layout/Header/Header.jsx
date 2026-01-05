@@ -3,8 +3,8 @@ import "./Header.css";
 const Header = () => {
     return (
         <header>
-            <div class="global-notification">
-                <div class="container">
+            <div className="global-notification">
+                <div className="container">
                     <p>
                         SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
                         - OFF 50% ! 
@@ -12,25 +12,25 @@ const Header = () => {
                     </p>
                 </div>
             </div>
-            <div class="header-row">
-                <div class="container">
-                    <div class="header-wrapper">
-                        <div class="header-mobile">
-                            <i class="bi bi-list" id="btn-menu"></i>
+            <div className="header-row">
+                <div className="container">
+                    <div className="header-wrapper">
+                        <div className="header-mobile">
+                            <i className="bi bi-list" id="btn-menu"></i>
                         </div>
-                        <div class="header-left">
-                            <a href="index.html" class="logo">LOGO</a>
+                        <div className="header-left">
+                            <a href="index.html" className="logo">LOGO</a>
                         </div>
-                        <div class="header-center" id="sidebar">
-                            <nav class="navigation">
-                                <ul class="menu-list">
-                                    <li class="menu-list-item">
-                                        <a href="index.html" class="menu-link active">
+                        <div className="header-center" id="sidebar">
+                            <nav className="navigation">
+                                <ul className="menu-list">
+                                    <li className="menu-list-item">
+                                        <a href="index.html" className="menu-link active">
                                             Home
-                                            <i class="bi bi-chevron-down"></i>
+                                            <i className="bi bi-chevron-down"></i>
                                         </a>
-                                        <div class="menu-dropdown-wrapper">
-                                            <ul class="menu-dropdown-content">
+                                        <div className="menu-dropdown-wrapper">
+                                            <ul className="menu-dropdown-content">
                                                 <li>
                                                     <a href="#">Home Clean</a>
                                                 </li>
@@ -61,19 +61,19 @@ const Header = () => {
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="menu-list-item megamenu-wrapper">
-                                        <a href="shop.html" class="menu-link">
+                                    <li className="menu-list-item megamenu-wrapper">
+                                        <a href="shop.html" className="menu-link">
                                             Shop
-                                            <i class="bi bi-chevron-down"></i>
+                                            <i className="bi bi-chevron-down"></i>
                                         </a>
-                                        <div class="menu-dropdown-wrapper">
-                                            <div class="menu-dropdown-megamenu">
-                                                <div class="megamenu-links">
-                                                    <div class="megamenu-products">
-                                                        <h3 class="megamenu-products-title">
+                                        <div className="menu-dropdown-wrapper">
+                                            <div className="menu-dropdown-megamenu">
+                                                <div className="megamenu-links">
+                                                    <div className="megamenu-products">
+                                                        <h3 className="megamenu-products-title">
                                                             Shop Style
                                                         </h3>
-                                                        <ul class="megamenu-menu-list">
+                                                        <ul className="megamenu-menu-list">
                                                             <li>
                                                                 <a href="#">Shop Standard</a>
                                                             </li>
@@ -103,11 +103,11 @@ const Header = () => {
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="megamenu-products">
-                                                        <h3 class="megamenu-products-title">
+                                                    <div className="megamenu-products">
+                                                        <h3 className="megamenu-products-title">
                                                             Filter Layout
                                                         </h3>
-                                                        <ul class="megamenu-menu-list">
+                                                        <ul className="megamenu-menu-list">
                                                             <li>
                                                                 <a href="#">Sidebar</a>
                                                             </li>
@@ -122,11 +122,11 @@ const Header = () => {
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="megamenu-products">
-                                                        <h3 class="megamenu-products-title">
+                                                    <div className="megamenu-products">
+                                                        <h3 className="megamenu-products-title">
                                                             Shop Loader
                                                         </h3>
-                                                        <ul class="megamenu-menu-list">
+                                                        <ul className="megamenu-menu-list">
                                                             <li>
                                                                 <a href="#">Shop Pagination</a>
                                                             </li>
@@ -148,46 +148,46 @@ const Header = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                <div class="megamenu-single">
+                                                <div className="megamenu-single">
                                                     <a href="#">
                                                         <img src="img/mega-menu.jpg" alt="" />
                                                     </a>
-                                                    <h3 class="megamenu-single-title">JOIN THE LAYERING GANG</h3>
-                                                    <h4 class="megamenu-single-subtitle">Suspendisse faucibus nunc et pellentesque</h4>
-                                                    <a href="#" class="megamenu-single-button btn btn-sm">Shop Now</a>
+                                                    <h3 className="megamenu-single-title">JOIN THE LAYERING GANG</h3>
+                                                    <h4 className="megamenu-single-subtitle">Suspendisse faucibus nunc et pellentesque</h4>
+                                                    <a href="#" className="megamenu-single-button btn btn-sm">Shop Now</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="menu-list-item">
-                                        <a href="blog.html" class="menu-link">
+                                    <li className="menu-list-item">
+                                        <a href="blog.html" className="menu-link">
                                             Blog
                                         </a>
                                     </li>
-                                    <li class="menu-list-item">
-                                        <a href="contact.html" class="menu-link">
+                                    <li className="menu-list-item">
+                                        <a href="contact.html" className="menu-link">
                                             Contact
                                         </a>
                                     </li>
                                 </ul>
                             </nav>
-                            <i class="bi-x-circle" id="close-sidebar"></i>
+                            <i className="bi-x-circle" id="close-sidebar"></i>
                         </div>
-                        <div class="header-right">
-                            <div class="header-right-links">
-                                <a href="account.html" class="header-account">
-                                    <i class="bi bi-person"></i>
+                        <div className="header-right">
+                            <div className="header-right-links">
+                                <a href="account.html" className="header-account">
+                                    <i className="bi bi-person"></i>
                                 </a>
-                                <button class="search-button">
-                                    <i class="bi bi-search"></i>
+                                <button className="search-button">
+                                    <i className="bi bi-search"></i>
                                 </button>
                                 <a href="#">
-                                    <i class="bi bi-heart"></i>
+                                    <i className="bi bi-heart"></i>
                                 </a>
-                                <div class="header-cart">
-                                    <a href="cart.html" class="header-cart-link">
-                                        <i class="bi bi-bag"></i>
-                                        <span class="header-cart-count">0</span>
+                                <div className="header-cart">
+                                    <a href="cart.html" className="header-cart-link">
+                                        <i className="bi bi-bag"></i>
+                                        <span className="header-cart-count">0</span>
                                     </a>
                                 </div>
                             </div>

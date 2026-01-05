@@ -3,25 +3,25 @@ import "./Sliders.css";
 
 const Sliders = () => {
     return (
-        <section class="slider">
-            <div class="slider-elements">  
+        <section className="slider">
+            <div className="slider-elements">  
                 <SliderItem />              
-                <div class="slider-buttons">
+                <div className="slider-buttons">
                     <button onclick="plusSlide(-1)">
-                        <i class="bi bi-chevron-left"></i>
+                        <i className="bi bi-chevron-left"></i>
                     </button>
                     <button onclick="plusSlide(1)">
-                        <i class="bi bi-chevron-right"></i>
+                        <i className="bi bi-chevron-right"></i>
                     </button>
                 </div>
-                <div class="slider-dots">
-                    <button class="slider-dot active" onclick="currentSlide(1)">
+                <div className="slider-dots">
+                    <button className="slider-dot active" onclick="currentSlide(1)">
                         <span></span>
                     </button>
-                    <button class="slider-dot" onclick="currentSlide(2)">
+                    <button className="slider-dot" onclick="currentSlide(2)">
                         <span></span>
                     </button>
-                    <button class="slider-dot" onclick="currentSlide(3)">
+                    <button className="slider-dot" onclick="currentSlide(3)">
                         <span></span>
                     </button>
                 </div>

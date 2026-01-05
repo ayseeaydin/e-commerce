@@ -2,10 +2,10 @@ import "./CategoryItem.css";
 
 const CategoryItem = () => {
     return (
-        <li class="category-item">
+        <li className="category-item">
             <a href="#">
-                <img src="img/categories/categories1.png" alt="" class="category-image" />
-                <span class="category-title">Smartphone</span>
+                <img src="img/categories/categories1.png" alt="" className="category-image" />
+                <span className="category-title">Smartphone</span>
             </a>
         </li>
     )

@@ -3,13 +3,13 @@ import "./Campaigns.css";
 
 const Campaigns = () => {
     return (
-        <section class="campaigns">
-            <div class="container">
-                <div class="campaigns-wrapper">
+        <section className="campaigns">
+            <div className="container">
+                <div className="campaigns-wrapper">
                     <CampaignItem/>
                     <CampaignItem/>
                 </div>
-                <div class="campaigns-wrapper">
+                <div className="campaigns-wrapper">
                     <CampaignItem/>
                     <CampaignItem/>
                 </div>
