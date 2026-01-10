@@ -1,16 +1,9 @@
-import React from 'react';
-import Header from '../components/layout/Header/Header';
-import Footer from '../components/layout/Footer/Footer';
 import Contact from '../components/Contact/Contact';
 
 
-const ContactPage=()=>{
-    return(
-        <React.Fragment>
-            <Header />
-            <Contact/>
-            <Footer/>
-        </React.Fragment>
+const ContactPage = () => {
+    return (
+        <Contact />
     )
 }
 
